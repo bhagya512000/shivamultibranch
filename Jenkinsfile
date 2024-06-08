@@ -11,6 +11,13 @@ pipeline{
                                                 echo "this is the second branch "
                                         }
                                 }
+                                stage ("third branch") {
+                                        steps {
+                                                echo "this is the third branch "
+                                        }
+                                }     
+                
                         }
+
                 } 
  
